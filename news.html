@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
+  <title>News - Vasyl Virastyuk Fan Site</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+  <header class="fixed-top bg-secondary">
+    <div class="container-fluid">
+      <div class="row">
+        <nav class="navbar navbar-expand-sm navbar-light col-12">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar"
+            aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link text-light">Main</a>
+              </li>
+              <li>
+                <span class="nav-link text-light">Matches</span>
+                <ul class="nav  bg-secondary">
+                  <li class="nav-item"><a href="#" class="nav-link text-light">Calendar of matches</a></li>
+                  <li class="nav-item"><a href="#" class="nav-link text-light">Next game</a></li>
+                  <li class="nav-item"><a href="#" class="nav-link text-light">Ratings</a></li>
+                </ul>
+              </li>
+              <li class="nav-item"><a href="news.html" class="nav-link text-light active">News</a></li>
+              <li class="nav-item"><a href="fans.html" class="nav-link text-light">Fans</a></li>
+              <li class="nav-item"><a href="contacts.html" class="nav-link text-light">Contacts</a></li>
+              <li class="nav-item"><a href="admin.html" class="nav-link text-light">Admin</a></li>
+            </ul>
+          </div>
+          <a class="navbar-brand" href="index.html"><img src="images/logo.png" class="logo" alt="logo" /></a>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main class="container">
+    <h1 class="text-center mt-3 col-12">Latest news</h1>
+    <fieldset>
+      <legend>Choose storage for using it</legend>
+      <label><input type="radio" name="storage" value="localStorage"/> Local</label>
+      <label><input type="radio" name="storage" value="IndexedDB"/> IndexedDB</label>
+    </fieldset>
+    <div id="news-container" class="row">
+      <div class="col-sm-6 col-lg-3  mt-3 mb-3">
+        <article class="card">
+          <img class="card-img-top" src="images/ice.jpg" alt="Ice tested">
+          <h5 class="text-center card-title mt-3">Ice tested</h5>
+          <p class="card-text p-2">Vasil in 1 minute raised and set on a platform 130 cm 4 ice cubes, each of which weighed 1.5 quintals...</p>
+        </article>
+      </div>
+      <div class="col-sm-6 col-lg-3  mt-3 mb-3">
+        <article class="card">
+          <img class="card-img-top" src="images/strongest-man.jpg" alt="The strongest man in the world">
+          <h5 class="text-center card-title mt-3">The strongest man in the world</h5>
+          <p class="card-text p-2">Virastyuk won the 2004 World's Strongest Man title, placing ahead of Savickas and Pudzianowski...</p>
+        </article>
+      </div>
+      <div class="col-sm-6 col-lg-3  mt-3 mb-3">
+        <article class="card">
+          <img class="card-img-top" src="images/world-record.jpg" alt="Vasyl set a world record">
+          <h5 class="text-center card-title mt-3">Vasyl set a world record</h5>
+          <p class="card-text p-2">Vasiliy set a world record, extending five trams on the 10 meters and 10 held together by machines at 20 meters...</p>
+        </article>
+      </div>
+      <div class="col-sm-6 col-lg-3  mt-3 mb-3">
+        <article class="card">
+          <img class="card-img-top" src="images/vasyls-childhood.jpg" alt="Vasyl's childhood">
+          <h5 class="text-center card-title mt-3">Childhood</h5>
+          <p class="card-text p-2">Vasiliy Virastyuk was born on April 22, 1974 in the city of Ivano-Frankivsk, Ukraine...</p>
+        </article>
+      </div>
+    </div>
+  </main>
+  <footer class="bg-secondary sticky-footer">
+    <div class="col-12">
+      <p class="mb-0 text-light">All rights reserved</p>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+    <script src="js/getNews.js"></script>
+</body>
+
+</html>
